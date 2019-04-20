@@ -1,4 +1,4 @@
 tictactoe: 
-	g++ -std=c++11 tictactoe-v1.0.cpp tictactoe-v1.0.hpp -o tictactoe
+	g++ -std=c++11 tictactoe-v1.0.cpp tictactoe-v1.0.hpp
 clean:
-	rm *.o tictactoe
+	rm *.o a.out

@@ -1,0 +1,21 @@
+
+1.	Game retrieve the playing options and displays them to the player.
+2.	Player selects an option. <A1>
+3.	Player X selects a number to mark on the board. <A2> 
+4.	Game updates the board.
+5.	Player O selects a number to mark on the board. <A3>
+6.	Repeat step 4.
+7.	Steps 3 until 6 are repeated until the board is full or one of the players makes it to a diagonal, vertical, or horizontal row in the grid wins. <A4>
+8.	Game checks which of the players had won and display the result then clear the board.
+9.	Steps 3 and 8 repeated until Player X or player O wins 3 times in a row. 
+10.	The winner cash $300K
+11.	Steps 9 and 10 repeated until Player X or player O wins 10 times in a row.
+12.	Game Ends. 
+
+
+
+A1. Quit game. Game ends
+A2. If the selected number by one of the players is already taken. Call step 3 again. 
+A3. If the selected number by one of the players is already taken. Call step 5 again.
+A4. If one of the players didn’t makes it to a diagonal, vertical, or horizontal row in the grid. It’s a tie. Tie counter increased by 1 and reset the wining counters for both players.
+
